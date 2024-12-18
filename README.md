@@ -1,5 +1,5 @@
 # Streamlit to Executable
-This was tested with streamlit 1.41.1
+Streamlit 1.41.1
 
 #### [Tutorial](https://youtu.be/G7Qeg_rbYM8)
 
