@@ -1,4 +1,6 @@
 # Streamlit to Executable
+This was tested with streamlit 1.41.1
+
 #### [Tutorial](https://youtu.be/G7Qeg_rbYM8)
 
 ## Create a Virtual Environment
@@ -69,7 +71,7 @@ from streamlit.web import cli
 
 # This import path depends on your Streamlit version
 if __name__ == '__main__':
-    cli._main_run_clExplicit('app.py', args=['run'])
+    cli._main_run_clExplicit('app.py', is_hello=True, args=['run'])
     # We will CREATE this function inside our Streamlit framework
 
 ```
