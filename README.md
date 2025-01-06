@@ -38,6 +38,9 @@ pyenv deactivate
 
 ```bash
 # You can use the latest version
+pip install streamlit pyinstaller
+
+# If you already have specific libs in a requirements file
 pip install -r requirements.txt
 ```
 
