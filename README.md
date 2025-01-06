@@ -38,7 +38,7 @@ pyenv deactivate
 
 ```bash
 # You can use the latest version
-pip install streamlit pyinstaller
+pip install -r requirements.txt
 ```
 
 # Add the Main File (app.py)
